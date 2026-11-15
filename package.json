@@ -1,0 +1,21 @@
+{
+  "name": "nexus-collab-project-management",
+  "version": "1.0.0",
+  "description": "Collaborative project management tool like Trello/Asana with Auth, Kanban boards, Task cards, Comments, and Real-time WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "project-management",
+    "kanban",
+    "trello-clone",
+    "asana-clone",
+    "websockets",
+    "sqlite",
+    "realtime"
+  ],
+  "author": "",
+  "license": "MIT"
+}
