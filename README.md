@@ -69,10 +69,10 @@ The database automatically pre-seeds 4 team members so you can test multi-user c
 
 | Name | Email | Password | Role |
 | :--- | :--- | :--- | :--- |
-| **Alex Johnson** | `alex@example.com` | `demo123` | Project Owner |
-| **Priya Sharma** | `priya@example.com` | `demo123` | Senior Engineer |
-| **Marcus Chen** | `marcus@example.com` | `demo123` | Designer / QA |
-| **Sarah Miller** | `sarah@example.com` | `demo123` | Product Manager |
+| **Alex Johnson** | `Ashu@example.com` | `demo123` | Project Owner |
+| **Priya Sharma** | `AshuSir@example.com` | `demo123` | Senior Engineer |
+| **Marcus Chen** | `Mohan@example.com` | `demo123` | Designer / QA |
+| **Sarah Miller** | `Sohan@example.com` | `demo123` | Product Manager |
 
 > **💡 Multi-User Simulation**: Click the user profile in the top-right navbar to switch between users in real time, or open two separate browser windows to see WebSocket events update across accounts simultaneously!
 
