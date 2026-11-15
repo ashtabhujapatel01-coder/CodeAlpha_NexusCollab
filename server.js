@@ -114,10 +114,10 @@ function seedDemoData() {
   console.log('Seeding initial demo users and collaborative project...');
 
   const users = [
-    { id: 'user_1', name: 'Alex Johnson', email: 'alex@example.com', pass: 'demo123', color: '#6366f1' },
-    { id: 'user_2', name: 'Priya Sharma', email: 'priya@example.com', pass: 'demo123', color: '#ec4899' },
-    { id: 'user_3', name: 'Marcus Chen', email: 'marcus@example.com', pass: 'demo123', color: '#10b981' },
-    { id: 'user_4', name: 'Sarah Miller', email: 'sarah@example.com', pass: 'demo123', color: '#f59e0b' }
+    { id: 'user_1', name: 'Ashu', email: 'ashu@example.com', pass: 'demo123', color: '#6366f1' },
+    { id: 'user_2', name: 'AshuSir', email: 'ashusir@example.com', pass: 'demo123', color: '#ec4899' },
+    { id: 'user_3', name: 'Mohan', email: 'mohan@example.com', pass: 'demo123', color: '#10b981' },
+    { id: 'user_4', name: 'Sohan', email: 'sohan@example.com', pass: 'demo123', color: '#f59e0b' }
   ];
 
   const insertUser = db.prepare('INSERT INTO users (id, name, email, password_hash, avatar_color) VALUES (?, ?, ?, ?, ?)');

@@ -659,8 +659,8 @@
 
       <!-- Active User Switcher (For Multi-User Testing) -->
       <div class="user-profile" onclick="openUserSwitcherModal()" title="Switch User for Collab Demo">
-        <div class="avatar" id="currentUserAvatar">AJ</div>
-        <span class="user-name" id="currentUserName">Alex Johnson</span>
+        <div class="avatar" id="currentUserAvatar">AS</div>
+        <span class="user-name" id="currentUserName">Ashu</span>
         <span style="font-size:0.75rem; color:var(--text-muted);">▼</span>
       </div>
     </div>
@@ -863,7 +863,7 @@
         const res = await fetch('/api/auth/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: 'alex@example.com', password: 'demo123' })
+          body: JSON.stringify({ email: 'ashu@example.com', password: 'demo123' })
         });
         const data = await res.json();
         if (data.token) {
